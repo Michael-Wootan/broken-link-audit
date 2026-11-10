@@ -1,0 +1,45 @@
+{
+  "industry": "a specialty coffee",
+  "protectedHandles": [
+    "how-to-store-coffee-beans",
+    "light-roast-vs-dark-roast"
+  ],
+  "trustedSources": ["Wikipedia", ".gov sites", "PubMed", "university .edu sites", "Britannica", "major news outlets"],
+  "avoidDomains": ["pinterest.com", "quora.com"],
+  "topics": [
+    {
+      "name": "health",
+      "match": ["caffeine", "health", "pubmed", "ncbi", "study"],
+      "fallbacks": [
+        "https://en.wikipedia.org/wiki/Caffeine",
+        "https://en.wikipedia.org/wiki/Health_effects_of_coffee"
+      ]
+    },
+    {
+      "name": "processing",
+      "match": ["roast", "processing", "washed", "natural-process", "decaf"],
+      "fallbacks": [
+        "https://en.wikipedia.org/wiki/Coffee_roasting",
+        "https://en.wikipedia.org/wiki/Coffee_production",
+        "https://en.wikipedia.org/wiki/Decaffeination"
+      ]
+    },
+    {
+      "name": "brewing",
+      "match": ["brew", "espresso", "pour-over", "french-press"],
+      "fallbacks": [
+        "https://en.wikipedia.org/wiki/Coffee_preparation",
+        "https://en.wikipedia.org/wiki/Espresso"
+      ]
+    },
+    {
+      "name": "general",
+      "match": [],
+      "fallbacks": [
+        "https://en.wikipedia.org/wiki/Coffee",
+        "https://en.wikipedia.org/wiki/Coffee_bean",
+        "https://en.wikipedia.org/wiki/Specialty_coffee"
+      ]
+    }
+  ]
+}

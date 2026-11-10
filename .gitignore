@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.*
+!.env.example
+output/
+config/link-audit.json
+*.log
+.DS_Store
